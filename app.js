@@ -12,7 +12,7 @@ app.get("/",function(req,res){
 app.post("/",function(req,res){
   console.log(req.body.cityName);
 })
-/*
+
 const url = "https://api.openweathermap.org/data/2.5/weather?q=London&appid=a2263d9bf6d89ae21c5cdc95c25c654a";
 https.get(url,function(response){
     console.log(response);
@@ -30,7 +30,7 @@ https.get(url,function(response){
       const object = {
         name: "Angela"
       }
-      JSON.stringify(object);
+      JSON.stringify(object);*/
     });
-});*/
+});
 app.listen(3000);
